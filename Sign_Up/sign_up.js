@@ -1,3 +1,5 @@
+const inputFields = document.getElementsByTagName('input');
+
 const registerBtn = document.querySelector(".registerBtn")
 const loginBtn = document.querySelector(".loginBtn")
 const moveBtn = document.querySelector(".moveBtn")
@@ -12,6 +14,9 @@ const password2 = document.querySelector("#password2")
 
 loginBtn.addEventListener("click", ()=>{
     
+    for (let i = 0; i < inputFields.length; i++) {
+            inputFields[i].value = '';
+    }
     moveBtn.classList.add("rightBtn");
     login.classList.add("loginForm");
     box.classList.add("small");
@@ -24,6 +29,9 @@ loginBtn.addEventListener("click", ()=>{
 
 registerBtn.addEventListener("click", ()=>{
 
+    for (let i = 0; i < inputFields.length; i++) {
+        inputFields[i].value = '';
+    }
     moveBtn.classList.remove("rightBtn");
     box.classList.remove("small");
     signUp.classList.remove("smallSignUp");
