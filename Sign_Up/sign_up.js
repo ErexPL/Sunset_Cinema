@@ -29,7 +29,7 @@ loginBtn.addEventListener("click", ()=>{
 
 registerBtn.addEventListener("click", ()=>{
 
-    for (let i = 0; i < inputFields.length; i++) {
+    for (i = 0; i < inputFields.length; i++) {
         inputFields[i].value = '';
     }
     moveBtn.classList.remove("rightBtn");
