@@ -41,15 +41,24 @@ video {
     padding-top: 0px;
     padding-bottom: 120px;
     border-radius: 15px;
-    height: 450px;
+    height: 550px;
     width: 395px;
     transition: all 1s ease-in-out;
 
 }
 
+#logo {
+
+    width: auto;
+    height: 80px;
+    padding-left: 65px;
+    padding-bottom: 20px;
+
+}
+
 .small {
 
-    height: 260px;
+    height: 363px;
     transition: all 1s ease-in-out;
 
 }
