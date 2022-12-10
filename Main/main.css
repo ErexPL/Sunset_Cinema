@@ -1,3 +1,10 @@
+body *{
+    user-select: none;
+}
+
+
+
+
 body {
 
     font-family: "Trebuchet MS", sans-serif;
@@ -43,13 +50,19 @@ video {
     margin: 30px;
 
 }
+#header_box > div:hover{
+    
+    box-shadow: 3px 3px 40px 0px rgb(241, 93, 24);
+    padding: 23px;
+    transition: 0.1s ease-in-out;
+}
 
 #header_box > img {
 
+    user-select: none;
     width: 250px;
     padding: 20px;
     margin: 55px;
-
 }
 
 a, a:visited{
@@ -86,6 +99,17 @@ a, a:visited{
 
     width: 325px;
     height: 500px;
-    padding: 40px;
-
+    margin: 40px;
+    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
+}
+footer{
+    color: black;
+    text-shadow: 4px 4px 9px rgba(0, 0, 0, 1);
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 50px;
+    font-style: oblique;
+}
+hr{
+    border: 1px solid rgb(22, 22, 22);
 }
