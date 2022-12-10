@@ -161,7 +161,7 @@ img {
 
     width: 390px;
     outline: 0;
-    border-width: 0 0 1px;
+    border-width: 0 0 2px;
     border-color:darkgrey;
     padding-bottom: 3px;
     font-size: 16px;
@@ -175,7 +175,9 @@ img {
 
 }
 
-
+.input::placeholder {
+    opacity: 0.5;
+}
 
 
 
