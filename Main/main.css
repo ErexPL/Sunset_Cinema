@@ -103,13 +103,15 @@ a, a:visited{
     box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
 }
 footer{
-    color: black;
-    text-shadow: 4px 4px 9px rgba(0, 0, 0, 1);
+    color: whitesmoke;
+    text-shadow: 4px 4px 9px whitesmoke;
     letter-spacing: 2px;
     text-align: center;
-    padding: 50px;
+    padding: 80px;
     font-style: oblique;
-}
-hr{
-    border: 1px solid rgb(22, 22, 22);
+    background-color: rgb(22, 22, 22);
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+
 }
