@@ -1,4 +1,4 @@
-const inputFields = document.getElementsByTagName('input');
+const inputFields = document.querySelectorAll('input');
 
 const registerBtn = document.querySelector(".registerBtn")
 const loginBtn = document.querySelector(".loginBtn")
@@ -25,7 +25,7 @@ loginBtn.addEventListener("click", ()=>{
     moveBtn.innerHTML = "Login";
     register.classList.remove("registerForm");
 
-})
+});
 
 registerBtn.addEventListener("click", ()=>{
 
@@ -42,7 +42,17 @@ registerBtn.addEventListener("click", ()=>{
         register.classList.add("registerForm");
     }, 800);
     
-})
+});
+
+inputFields.forEach(function(input) {
+    input.addEventListener('keydown', function(event) {
+    
+        if (event.keyCode === 32) {
+            event.preventDefault();
+        }
+
+    });
+});
 
 function verify() {
 
@@ -56,4 +66,4 @@ function verify() {
 
     }
 
-}
+};
