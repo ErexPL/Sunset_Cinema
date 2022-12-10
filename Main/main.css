@@ -1,4 +1,4 @@
-.bg {
+video {
 
     position: fixed;
     right: 0;
@@ -10,7 +10,7 @@
 
 }
 
-.header-box {
+#header_box {
 
     display: flex;
     justify-content: space-between;
@@ -25,20 +25,20 @@
 
 }
 
-.logo {
-
-    width: 200px;
-    height: 60px;
-    padding: 20px;
-
-}
-
-.item {
+#header_box > * {
 
     background-color: transparent;
     padding: 20px;
     padding-left: 30px;
     padding-right: 30px;
+
+}
+
+#header_box > img {
+
+    width: 200px;
+    height: 60px;
+    padding: 20px;
 
 }
 
@@ -50,7 +50,7 @@
 
 }
 
-.movie-box {
+.movie_box {
 
     display: flex;
     justify-content: space-around;
@@ -59,7 +59,7 @@
 
 }
 
-.movie {
+img {
 
     width: 325px;
     height:  500px;
