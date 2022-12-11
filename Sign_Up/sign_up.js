@@ -22,6 +22,7 @@ loginBtn.addEventListener("click", ()=>{
     
     for (let i = 0; i < inputFields.length; i++) {
             inputFields[i].value = '';
+            inputFields[i].style.borderBottomColor = '';
     }
     moveBtn.classList.add("rightBtn");
     login.classList.add("loginForm");
@@ -37,6 +38,7 @@ registerBtn.addEventListener("click", ()=>{
 
     for (i = 0; i < inputFields.length; i++) {
         inputFields[i].value = '';
+        inputFields[i].style.borderBottomColor = '';
     }
     moveBtn.classList.remove("rightBtn");
     box.classList.remove("small");
@@ -54,8 +56,14 @@ inputFields.forEach(function(input) {
 
     input.addEventListener('keydown', function(event) {
     
-        if (event.keyCode === 32) {
-            event.preventDefault();
+        if (input.id == "username") {
+            if (!((event.keyCode >= 65 && event.keyCode <= 90) || event.keyCode == 8 || event.keyCode == 37 || event.keyCode == 39)) {
+                event.preventDefault();
+            }
+        }
+
+        if (event.keyCode == 32) {
+            input.value += '_';
         }
 
     });
