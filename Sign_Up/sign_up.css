@@ -7,7 +7,7 @@ body * {
 body {
 
     font-family: "Trebuchet MS", sans-serif;
-    zoom: 150%;
+    zoom: 125%;
 
 }
 
@@ -46,8 +46,8 @@ video {
     padding-top: 0px;
     padding-bottom: 120px;
     border-radius: 15px;
-    height: 64.5%;
-    width: 23.1%;
+    height: 555px;
+    width: 395px;
     transition: all 1s ease-in-out;
 
 }
@@ -63,7 +63,7 @@ video {
 
 .small {
 
-    height: 42.6%;
+    height: 365px;
     transition: all 1s ease-in-out;
 
 }
