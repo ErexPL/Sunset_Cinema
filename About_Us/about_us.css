@@ -1,13 +1,13 @@
 body *{
 
     user-select: none;
-
+    box-sizing: border-box;
 }
 
 body {
 
     font-family: "Trebuchet MS", sans-serif;
-    overflow: hidden;
+    
 
 }
 
@@ -80,7 +80,7 @@ a, a:visited{
     margin-right: -8em;
 }
 
-h1{
+main > h1{
 
     margin-top: 140px;
     width: 100%;
@@ -98,7 +98,9 @@ footer{
     background-color: rgb(22, 22, 22);
     margin-left: -8px;
     margin-right: -8px;
+    margin-bottom: -8px;
     margin-top: 31%;
+    
 
 }
 
@@ -107,3 +109,49 @@ footer > img{
     scale: 70%;
 
 }
+hr{
+    border: 1px solid #252525;
+}
+#content{
+
+    width: 1000px;
+
+}
+main>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    scale: 110%;
+}
+#sideContent, ul{
+    width: 1000px;
+}
+p, ul{
+    font-size: 17px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: text;
+}
+ul{
+    margin-bottom: 140px;
+}
+section > h1{
+
+    margin-top: 140px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
