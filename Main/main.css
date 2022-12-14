@@ -125,3 +125,13 @@ h1{
 hr{
     border: 1px solid #252525;
 }
+
+/* IMG HOVER*/
+.movie_box>img:active{
+    background-color: #252525;
+    padding-right: 1000px;
+    padding-bottom: 300px;
+    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
+
+    transition: 0.5s ease-in-out;
+}
