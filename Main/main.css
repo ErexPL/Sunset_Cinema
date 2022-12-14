@@ -127,11 +127,7 @@ hr{
 }
 
 /* IMG HOVER*/
-.movie_box>img:active{
-    background-color: #252525;
-    padding-right: 1000px;
-    padding-bottom: 300px;
-    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
-
-    transition: 0.5s ease-in-out;
+.movie_box>img:hover{
+    filter: blur(8px);
+    transition: 0.2s;
 }
