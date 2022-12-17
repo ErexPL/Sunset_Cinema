@@ -4,13 +4,6 @@ body * {
     
 }
 
-@font-face {
-
-    font-family: 'kupa';
-    src: url(fonts/Druk_Collection/Druk_Wide_Family/DrukWide-Heavy-Trial.otf);
-    
-}
-
 body {
 
     font-family: "Trebuchet MS", sans-serif;
@@ -131,8 +124,9 @@ footer > img {
 h1 {
 
     color: rgb(22, 22, 22);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 100px;
-    font-family: 'kupa';
+    font-weight: bolder;
     margin-top: 140px;
     width: 100%;
     text-align: center;
@@ -141,7 +135,8 @@ h1 {
 
 hr {
 
-    border: 1px solid #252525;
+    border: 3px solid rgb(22, 22, 22);
+    margin: 25px;
 
 }
 
