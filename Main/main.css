@@ -88,7 +88,8 @@ a, a:visited{
 }
 
 .movie_box img{
-    
+
+    margin: auto;
     width: 325px;
     height: 500px;
     margin: 40px;
@@ -134,23 +135,26 @@ hr{
     filter: blur(8px);
     transition: 0.1s;
 }
+
 .hide {
     display: none;
   }
       
   .movie_box img:hover + .hide {
     display: flex;
-
-
 }
-.container1{
+
+
+
+/* BUTTONS ON FILMS (trailer etc.) */
+.filmContainer{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
-.btn{
+.trailerButton{
     position: absolute;
     width: 100px;
     text-align: center;
@@ -164,8 +168,4 @@ hr{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-}
-.a{
-    margin: auto;
 }
