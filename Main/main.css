@@ -141,7 +141,7 @@ h1 {
 
 hr {
 
-    border: 1px solid #252525;
+    border: 2px solid #252525;
 
 }
 
@@ -180,6 +180,13 @@ hr {
     left: 50%;
     transform: translate(-50%, -50%);
 
+}
+
+.filmContainer>.trailerButton:hover{
+    box-shadow: 3px 3px 40px 0px rgb(0, 0, 0);
+    padding-top: 25px;
+    padding-bottom: 28px;
+    transition: 0.1s ease-in-out;
 }
 
 .hide {
