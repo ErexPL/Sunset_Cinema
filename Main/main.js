@@ -8,8 +8,6 @@ filmContainer.forEach(film => {
     film.addEventListener("mouseover", ()=>{
 
         trailerButton = film.querySelector(":scope > div");
-        console.log(trailerButton);
-
         trailerButton.classList.remove("hide");
         trailerButton.classList.add("show");
         
