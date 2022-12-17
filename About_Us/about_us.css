@@ -7,7 +7,6 @@ body *{
 body {
 
     font-family: "Trebuchet MS", sans-serif;
-    
 
 }
 
@@ -52,7 +51,7 @@ video {
     
 }
 
-#header_box > div:hover{
+#header_box > div:hover {
     
     box-shadow: 3px 3px 40px 0px rgb(241, 93, 24);
     padding-top: 25px;
@@ -68,10 +67,10 @@ video {
     margin: 55px;
 }
 
-a, a:visited{
+a, a:visited {
 
     text-decoration: none;
-    color: black;
+    color: rgb(22, 22, 22);
     padding: 2em;
     padding-left: 8em;
     padding-right: 8em;
@@ -80,15 +79,76 @@ a, a:visited{
     margin-right: -8em;
 }
 
-main > h1{
+h1 {
 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
     margin-top: 140px;
     width: 100%;
     text-align: center;
 
 }
 
-footer{
+hr {
+
+    border: 3px solid rgb(22, 22, 22);
+    margin: 25px;
+    margin-bottom: 100px;
+
+}
+
+#aboutUs {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 300px;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#aboutUs > * {
+
+    width: 600px;
+
+}
+
+#aboutUs > p, ul{
+
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    list-style-position: inside;
+
+}
+
+#creators {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 1200px;
+    margin-bottom: 120px;
+    align-items: center;
+
+}
+
+#creators > * {
+
+    width: 400px;
+    margin: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+footer {
+
     color: whitesmoke;
     text-shadow: 4px 4px 9px whitesmoke;
     letter-spacing: 2px;
@@ -99,117 +159,11 @@ footer{
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -8px;
-    margin-top: 50%;
-    
 
 }
 
-footer > img{
+footer > img {
 
     scale: 70%;
-
-}
-hr{
-    border: 1px solid #252525;
-}
-#content{
-
-    width: 1000px;
-
-}
-main>img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    scale: 110%;
-}
-#sideContent, ul{
-    width: 1000px;
-}
-p, ul{
-    font-size: 17px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    user-select: text;
-}
-ul{
-    margin-bottom: 140px;
-}
-section > h1{
-
-    margin-top: 140px;
-    width: 100%;
-    text-align: center;
-
-}
-
-.row {
-    display: flex;
-  }
-  
-  /* Create three equal columns that sits next to each other */
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
-
-#zyz_zdj{
-
-position: absolute;
-scale: 70%;
-top: 120%;
-left: 5%;
-box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
-
-}
-
-#zyz_info{
-
-position: absolute;
-width: 300px;
-left: 9%;
-top: 183%;
-
-}
-
-#fuss_zdj{
-
-    position: absolute;
-    scale: 80%;
-    left: 40%;
-    top: 129%;
-    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
-
-}
-
-#fus_info{
-
-    position: absolute;
-    width: 300px;
-    left: 42%;
-    top: 155%;
-
-}
-
-#paz_zdj{
-    
-    scale: 50%;
-    position: absolute;
-    left: 70%;
-    top: 113%;
-    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
-
-}
-
-#paz_info{
-
-    position: absolute;
-    left: 77%;
-    top: 173%;
-    width: 300px;
-
 
 }
