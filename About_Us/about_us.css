@@ -99,7 +99,7 @@ footer{
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -8px;
-    margin-top: 31%;
+    margin-top: 50%;
     
 
 }
@@ -155,3 +155,61 @@ section > h1{
     flex: 33.33%;
     padding: 5px;
   }
+
+#zyz_zdj{
+
+position: absolute;
+scale: 70%;
+top: 120%;
+left: 5%;
+box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
+
+}
+
+#zyz_info{
+
+position: absolute;
+width: 300px;
+left: 9%;
+top: 183%;
+
+}
+
+#fuss_zdj{
+
+    position: absolute;
+    scale: 80%;
+    left: 40%;
+    top: 129%;
+    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
+
+}
+
+#fus_info{
+
+    position: absolute;
+    width: 300px;
+    left: 42%;
+    top: 155%;
+
+}
+
+#paz_zdj{
+    
+    scale: 50%;
+    position: absolute;
+    left: 70%;
+    top: 113%;
+    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
+
+}
+
+#paz_info{
+
+    position: absolute;
+    left: 77%;
+    top: 173%;
+    width: 300px;
+
+
+}
