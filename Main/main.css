@@ -1,10 +1,10 @@
-body *{
+body * {
 
     user-select: none;
     
 }
 
-@font-face{
+@font-face {
     font-family: 'kupa';
     src: url(fonts/Druk_Collection/Druk_Wide_Family/DrukWide-Heavy-Trial.otf);
 }
@@ -55,7 +55,8 @@ video {
     margin: 30px;
     
 }
-#header_box > div:hover{
+
+#header_box > div:hover {
     
     box-shadow: 3px 3px 40px 0px rgb(241, 93, 24);
     padding-top: 25px;
@@ -71,7 +72,7 @@ video {
     margin: 55px;
 }
 
-a, a:visited{
+a, a:visited {
 
     text-decoration: none;
     color: black;
@@ -85,7 +86,7 @@ a, a:visited{
 }
 
 
-.movie_box{
+.movie_box {
 
     display: flex;
     justify-content: space-around;
@@ -94,7 +95,7 @@ a, a:visited{
 
 }
 
-.movie_box img{
+.movie_box img {
     z-index: 1;
     margin: auto;
     width: 325px;
@@ -105,7 +106,7 @@ a, a:visited{
 
 
 
-footer{
+footer {
     color: whitesmoke;
     text-shadow: 4px 4px 9px whitesmoke;
     letter-spacing: 2px;
@@ -119,13 +120,14 @@ footer{
 
 }
 
-footer > img{
+footer > img {
 
     scale: 70%;
 
 }
 
-h1{
+h1 {
+
     color: rgb(22, 22, 22);
     font-size: 100px;
     font-family: 'kupa';
@@ -134,36 +136,34 @@ h1{
     text-align: center;
 
 }
-hr{
+
+hr {
+
     border: 1px solid #252525;
-}
 
-/* IMG HOVER*/
-.movie_box img:hover{
-    filter: blur(6px);
-    transition: 0.15s;
-}
-
-.hide {
-    display: none;
-  }
-      
-  .movie_box img:hover + .hide {
-    display: flex;
 }
 
 
 
-/* BUTTONS ON FILMS (trailer etc.) */
-.filmContainer{
+.filmContainer {
+    
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
-.trailerButton{
-    z-index: 2;
+
+.filmContainer:hover > img{
+
+    filter: blur(6px);
+    transition: 0.15s;
+
+}
+
+.trailerButton {
+
+    z-index: 1;
     position: absolute;
     width: 100px;
     text-align: center;
@@ -177,4 +177,17 @@ hr{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+}
+
+.hide {
+
+    display: none;
+    
+}
+
+.show {
+
+    display: flex;
+
 }

@@ -1,4 +1,4 @@
-const inputFields = document.querySelectorAll('input');
+const inputFields = document.querySelectorAll("input");
 
 const registerBtn = document.querySelector(".registerBtn");
 const loginBtn = document.querySelector(".loginBtn");
