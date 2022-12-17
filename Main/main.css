@@ -2,6 +2,11 @@ body *{
     user-select: none;
 }
 
+@font-face{
+    font-family: 'kupa';
+    src: url(fonts/Druk_Collection/Druk_Wide_Family/DrukWide-Heavy-Trial.otf);
+}
+
 body {
 
     font-family: "Trebuchet MS", sans-serif;
@@ -30,7 +35,7 @@ video {
     height: 110px;
     position: fixed;
     transform: translate(-8px, -8px);
-    z-index: 1;
+    z-index: 4;
     font-weight: bold;
     margin-top: -135px;
 
@@ -88,16 +93,15 @@ a, a:visited{
 }
 
 .movie_box img{
-
+    z-index: 1;
     margin: auto;
     width: 325px;
     height: 500px;
     margin: 40px;
-}
-
-.movie_box img{
     box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
 }
+
+
 
 footer{
     color: whitesmoke;
@@ -120,7 +124,9 @@ footer > img{
 }
 
 h1{
-
+    color: rgb(22, 22, 22);
+    font-size: 100px;
+    font-family: 'kupa';
     margin-top: 140px;
     width: 100%;
     text-align: center;
@@ -132,8 +138,8 @@ hr{
 
 /* IMG HOVER*/
 .movie_box img:hover{
-    filter: blur(8px);
-    transition: 0.1s;
+    filter: blur(6px);
+    transition: 0.15s;
 }
 
 .hide {
@@ -155,6 +161,7 @@ hr{
     
 }
 .trailerButton{
+    z-index: 2;
     position: absolute;
     width: 100px;
     text-align: center;
