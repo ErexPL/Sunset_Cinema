@@ -5,8 +5,10 @@ body * {
 }
 
 @font-face {
+
     font-family: 'kupa';
     src: url(fonts/Druk_Collection/Druk_Wide_Family/DrukWide-Heavy-Trial.otf);
+    
 }
 
 body {
@@ -146,7 +148,7 @@ hr {
 
 
 .filmContainer {
-    
+
     position: relative;
     display: flex;
     align-items: center;
