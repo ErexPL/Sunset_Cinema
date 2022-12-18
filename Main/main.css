@@ -57,6 +57,7 @@ video {
     padding-top: 25px;
     padding-bottom: 28px;
     transition: 0.1s ease-in-out;
+    cursor: pointer;
 
 }
 
@@ -73,12 +74,12 @@ a, a:visited {
 
     text-decoration: none;
     color: black;
-    padding: 2em;
-    padding-left: 8em;
-    padding-right: 8em;
-    margin: -2em;
-    margin-left: -8em;
-    margin-right: -8em;
+    padding: 0.2vw;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
+    margin: -0.2vw;
+    margin-left: -0.8vw;
+    margin-right: -0.8vw;
 
 }
 
@@ -166,18 +167,20 @@ hr {
 
     z-index: 1;
     position: absolute;
-    width: 100px;
+    width: 120px;
     text-align: center;
     justify-content: center;
     border-radius: 15px;
     border: none;
-    background: linear-gradient(114deg, rgb(253, 167, 68) 0%, rgb(250, 36, 64) 100%);
-    box-shadow: 3px 3px 20px 0px rgb(241, 93, 24);
+    background: rgb(22, 22, 22);
+    color: white;
+    box-shadow: 8px 8px 24px 8px rgb(0, 0, 0);
     padding: 20px;
     font-weight: bold;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 
 }
 
@@ -190,15 +193,18 @@ hr {
     justify-content: center;
     border-radius: 15px;
     border: none;
-    background: linear-gradient(114deg, rgb(253, 167, 68) 0%, rgb(250, 36, 64) 100%);
-    box-shadow: 3px 3px 20px 0px rgb(241, 93, 24);
+    background: rgb(22, 22, 22);
+    color: white;
+    box-shadow: 8px 8px 24px 8px rgba(0, 0, 0);
     padding: 20px;
     font-weight: bold;
-    top: 65%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 
 }
+
 .filmContainer > .trailerButton:hover {
 
     padding-top: 25px;
@@ -214,6 +220,7 @@ hr {
     transition: 0.1s ease-in-out;
 
 }
+
 .hide {
 
     display: none;
