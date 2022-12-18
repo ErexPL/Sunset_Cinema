@@ -66,7 +66,7 @@ video {
     user-select: none;
     width: 250px;
     padding: 20px;
-    margin: 55px;
+    margin: 30px;
 
 }
 
@@ -74,12 +74,12 @@ a, a:visited {
 
     text-decoration: none;
     color: black;
-    padding: 0.2vw;
-    padding-left: 0.8vw;
-    padding-right: 0.8vw;
-    margin: -0.2vw;
-    margin-left: -0.8vw;
-    margin-right: -0.8vw;
+    padding: 1vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    margin: -1vw;
+    margin-left: -6vw;
+    margin-right: -6vw;
 
 }
 
