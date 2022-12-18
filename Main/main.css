@@ -195,7 +195,7 @@ hr {
     border: none;
     background: rgb(22, 22, 22);
     color: white;
-    box-shadow: 8px 8px 24px 8px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px 24px 8px rgba(0, 0, 0);
     padding: 20px;
     font-weight: bold;
     top: 60%;
