@@ -8,9 +8,12 @@ filmContainer.forEach(film => {
   
     film.addEventListener("mouseover", ()=>{
 
-        trailerButton = film.querySelector(":scope > div");
+        trailerButton = film.querySelector(":scope > .trailerButton");
         trailerButton.classList.remove("hide");
         trailerButton.classList.add("show");
+        ticketButton = film.querySelector(":scope > .ticketButton");
+        ticketButton.classList.remove("hide");
+        ticketButton.classList.add("show");
         
     });
         
@@ -18,6 +21,8 @@ filmContainer.forEach(film => {
 
         trailerButton.classList.add("hide");
         trailerButton.classList.remove("show");
+        ticketButton.classList.add("hide");
+        ticketButton.classList.remove("show");
     
     });
 
