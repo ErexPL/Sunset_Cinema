@@ -1,6 +1,7 @@
 body * {
 
     user-select: none;
+    box-sizing: border-box;
     
 }
 
@@ -107,7 +108,7 @@ video {
     width: 325px;
     height: 500px;
     margin: 40px;
-    border: 10px black solid;
+    border: 8px black solid;
     border-radius: 20px;
     box-shadow: 8px 8px 50px 20px rgb(0, 0, 0);
 }
