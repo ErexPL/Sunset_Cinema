@@ -87,11 +87,16 @@ video {
 
 .movie_box {
 
-    display: flex;
+    display: grid;
     justify-content: space-evenly;
     flex-wrap: wrap;
     position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 125px;
+    width: 90%;
+    grid-template-columns: repeat(auto-fill, 410px);
+    grid-gap: 80px;
 
 }
 
@@ -102,7 +107,9 @@ video {
     width: 325px;
     height: 500px;
     margin: 40px;
-    box-shadow: 8px 8px 24px 8px rgb(0, 0, 0);
+    border: 10px black solid;
+    border-radius: 20px;
+    box-shadow: 8px 8px 50px 20px rgb(0, 0, 0);
 }
 
 a, a:visited {
@@ -141,16 +148,17 @@ h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 100px;
     font-weight: bolder;
+    width: 90%;
     margin-top: 140px;
-    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 40px;
     text-align: center;
-
-}
-
-hr {
-
-    border: 5px solid black;
-    margin: 35px;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    border-radius: 20px;
+    border: 8px white solid;
+    box-shadow: 0px 0px 34px 9px rgba(255, 255, 255, 0.6);
 
 }
 
