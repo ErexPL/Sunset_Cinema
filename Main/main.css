@@ -185,7 +185,7 @@ h1 {
 
     z-index: 1;
     position: absolute;
-    height: 20px;
+    height: 50px;
     width: 120px;
     text-align: center;
     justify-content: center;
@@ -207,7 +207,7 @@ h1 {
 
     z-index: 1;
     position: absolute;
-    height: 20px;
+    height: 50px;
     width: 120px;
     text-align: center;
     justify-content: center;
@@ -227,17 +227,15 @@ h1 {
 
 .filmContainer > .trailerButton:hover {
 
-    padding-top: 25px;
-    padding-bottom: 28px;
-    transition: 0.1s ease-in-out;
+    height: 70px;
+    transition: 0.2s ease-in-out;
 
 }
 
 .filmContainer > .ticketButton:hover {
 
-    padding-top: 25px;
-    padding-bottom: 28px;
-    transition: 0.1s ease-in-out;
+    height: 70px;
+    transition: 0.2s ease-in-out;
 
 }
 
