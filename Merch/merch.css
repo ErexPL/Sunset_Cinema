@@ -180,7 +180,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5rem;
 
 }
   
@@ -213,5 +212,35 @@ footer {
 footer > img {
 
     scale: 70%;
+
+}
+
+
+#sklep {
+
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#sklep > * {
+
+    width: 35%;
+
+}
+
+
+
+#sklep > p{
+
+    font-size: 1.1vw;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
 
 }
