@@ -193,6 +193,22 @@ footer > img {
 
 
   }
+
+  .coming{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+
+  }
   
-  
+  article > .coming > img{
+
+    border-radius: 10px;
+    border: 2px white solid;
+    box-shadow: -1rem 0 3rem #000;
+    scale: 60%;
+    
+  }
   
