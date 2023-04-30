@@ -83,6 +83,11 @@ header a, header a:visited {
 }
 
 
+main {
+
+    min-height: 91.7vh;
+
+}
 
 .movie_box {
 

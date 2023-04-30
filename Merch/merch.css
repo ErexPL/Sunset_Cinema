@@ -101,30 +101,6 @@ h1 {
 
 }
 
-footer {
-
-    color: whitesmoke;
-    text-shadow: 4px 4px 9px whitesmoke;
-    letter-spacing: 2px;
-    text-align: center;
-    padding: 80px;
-    font-style: oblique;
-    background-color: rgb(22, 22, 22);
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: -8px;
-
-}
-
-footer > img {
-
-    scale: 70%;
-
-}
-
-
-/* koraozela */
-
 
 
 main {
@@ -132,6 +108,7 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    min-height: 91.7vh;
 
 }
   
@@ -151,7 +128,6 @@ main {
     background-color: white;
     border-radius: 10px;
     box-shadow: -1rem 0 3rem #000;
-  /*   margin-left: -50px; */
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
@@ -208,11 +184,34 @@ main {
 
 }
   
-article > .coming > img{
+.coming > img{
 
     border-radius: 10px;
     border: 2px white solid;
     box-shadow: -1rem 0 3rem #000;
     scale: 60%;
     
+}
+
+footer {
+
+    color: whitesmoke;
+    text-shadow: 4px 4px 9px whitesmoke;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 80px;
+    font-style: oblique;
+    background-color: rgb(22, 22, 22);
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+
+}
+
+
+
+footer > img {
+
+    scale: 70%;
+
 }
