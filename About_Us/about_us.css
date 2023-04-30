@@ -122,7 +122,7 @@ h1 {
 
     padding: 30px;
     border-radius: 20px;
-    border: 8px solid rgb(22, 22, 22);
+    border: 1px solid rgb(22, 22, 22);
     box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
 
 }
@@ -154,14 +154,13 @@ h1 {
 #creators > img {
 
     width: 25%;
-    border-radius: 20px;
-    border: 8px solid rgb(22, 22, 22);
-    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 6px rgba(0, 0, 0, 1);
 
 }
 
 #creators > p {
-
+    display: flex;
     width: 60%;
     font-size: 1.1vw;
     font-weight: bolder;
@@ -170,7 +169,8 @@ h1 {
     padding: 30px;
     border-radius: 20px;
     box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
-    
+    text-align: center;
+    align-items: center;
 }
 
 footer {
