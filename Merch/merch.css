@@ -133,6 +133,7 @@ footer > img {
 
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
   }
   
@@ -143,7 +144,7 @@ footer > img {
     top: 60px;
     left: calc(50% - 300px);
     display: flex;
-    margin-bottom: 18rem;
+    margin-bottom: 5rem;
   }
   
   .card {
