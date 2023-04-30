@@ -23,7 +23,7 @@ video {
 
 }
 
-#header_box {
+header {
 
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ video {
 
 }
 
-#header_box > div {
+header > div {
 
     width: 300px;
     text-align: center;
@@ -52,7 +52,7 @@ video {
     
 }
 
-#header_box > div:hover {
+header > div:hover {
     
     box-shadow: 3px 3px 40px 0px rgb(241, 93, 24);
     padding-top: 25px;
@@ -62,7 +62,7 @@ video {
 
 }
 
-#header_box > img {
+header > img {
 
     user-select: none;
     width: 250px;
@@ -129,15 +129,15 @@ footer > img {
 
 
 
-  main{
+main{
 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
-  }
+}
   
-  .container {
+.container {
     
     height: 200px;
     width: auto;
@@ -145,9 +145,11 @@ footer > img {
     left: calc(50% - 300px);
     display: flex;
     margin-bottom: 5rem;
-  }
+
+}
   
-  .card {
+.card {
+
     display: flex;
     height: 340px;
     width: 240px;
@@ -160,37 +162,46 @@ footer > img {
     left: 0px;
     border: 2px white solid;
     flex-wrap: wrap;
-  }
+
+}
   
-  .card:not(:first-child) {
+.card:not(:first-child) {
+
       margin-left: -50px;
-  }
+
+}
   
-  .card:hover {
+.card:hover {
+
     transform: translateY(-20px);
     transition: 0.4s ease-out;
-  }
+
+}
   
-  .card:hover ~ .card {
+.card:hover ~ .card {
+
     position: relative;
     left: 50px;
     transition: 0.4s ease-out;
-  }
+
+}
   
-  .title {
+.title {
+
     display: flex;
     justify-content: center;
     color: rgb(22, 22, 22);
     font-weight: 300;
    
-  }
+}
 
-  .container > div > img{
+.container > div > img {
 
     width: 100%;
     height: 82.3%;
     border-radius: 10px;
 
+<<<<<<< HEAD
 
   }
 
@@ -212,3 +223,6 @@ footer > img {
     
   }
   
+=======
+} 
+>>>>>>> c43a2009d836e6e807173b9b78582d0d67899241
