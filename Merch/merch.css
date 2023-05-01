@@ -89,8 +89,6 @@ h1 {
     font-weight: bolder;
     width: 90%;
     margin-top: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
     padding: 40px;
     text-align: center;
     color: white;
@@ -192,30 +190,6 @@ main {
     
 }
 
-footer {
-
-    color: whitesmoke;
-    text-shadow: 4px 4px 9px whitesmoke;
-    letter-spacing: 2px;
-    text-align: center;
-    padding: 80px;
-    font-style: oblique;
-    background-color: rgb(22, 22, 22);
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: -8px;
-
-}
-
-
-
-footer > img {
-
-    scale: 70%;
-
-}
-
-
 #sklep {
 
     display: flex;
@@ -233,7 +207,7 @@ footer > img {
 
 
 
-#sklep > p{
+#sklep > p {
 
     font-size: 1.1vw;
     font-weight: bolder;
@@ -242,5 +216,25 @@ footer > img {
     padding: 30px;
     border-radius: 20px;
     box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
+
+}
+
+
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(22, 22, 22);
+
+}
+
+footer > img {
+
+    scale: 70%;
 
 }

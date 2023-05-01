@@ -97,8 +97,6 @@ h1 {
     font-weight: bolder;
     width: 90%;
     margin-top: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
     padding: 40px;
     text-align: center;
     color: white;
@@ -112,20 +110,15 @@ h1 {
 #aboutUs {
 
     display: flex;
-    margin-top: 100px;
     align-items: center;
     justify-content: space-evenly;
-
-}
-
-#aboutUs > * {
-
-    width: 35%;
+    flex-wrap: wrap;
 
 }
 
 #aboutUs > img {
 
+    width: 28%;
     padding: 30px;
     border-radius: 20px;
     border: 1px solid rgb(22, 22, 22);
@@ -133,15 +126,22 @@ h1 {
 
 }
 
-#aboutUs > p{
+#aboutUs > p, #aboutUs > ul {
 
-    font-size: 1.1vw;
+    width: 28%;
+    font-size: 30px;
     font-weight: bolder;
     color: white;
     background-color: rgb(22, 22, 22);
     padding: 30px;
     border-radius: 20px;
     box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
+
+}
+
+li {
+
+    margin-left: 30px;
 
 }
 
@@ -149,25 +149,25 @@ h1 {
 
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 120px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 100px 0px 100px 0px;
     justify-content: space-evenly;
+    align-items: center;
     row-gap: 100px;
 
 }
 
 #creators > img {
 
-    width: 25%;
+    width: 15%;
     border-radius: 10px;
     box-shadow: 0px 5px 15px 6px rgba(0, 0, 0, 1);
 
 }
 
 #creators > p {
-    display: flex;
-    width: 60%;
+
+    height: min-content;
+    width: 35%;
     font-size: 1.1vw;
     font-weight: bolder;
     color: white;
@@ -175,22 +175,42 @@ h1 {
     padding: 30px;
     border-radius: 20px;
     box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
-    
-    align-items: center;
+
+}
+
+.p {
+
+    margin-right: 20%;
+
+}
+
+.reverse_p {
+
+    margin-left: 20%;
+
+}
+
+.img {
+
+    margin-left: 10%;
+
+}
+
+.reverse_img {
+
+    margin-right: 10%;
+
 }
 
 footer {
 
-    color: whitesmoke;
-    text-shadow: 4px 4px 9px whitesmoke;
-    letter-spacing: 2px;
-    text-align: center;
-    padding: 80px;
-    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
     background-color: rgb(22, 22, 22);
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: -8px;
 
 }
 

@@ -83,9 +83,30 @@ header a, header a:visited {
 }
 
 
+
 main {
 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     min-height: 91.7vh;
+
+}
+
+h1 {
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    width: 90%;
+    margin-top: 100px;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    border-radius: 20px;
+    border: 8px white solid;
+    box-shadow: 0px 0px 34px 9px rgba(255, 255, 255, 0.6);
 
 }
 
@@ -115,58 +136,6 @@ main {
     box-shadow: 8px 8px 50px 20px rgb(0, 0, 0);
 }
 
-.filmContainer > * * {
-
-    text-decoration: none;
-    color: white;
-    padding: 1.2vw;
-
-}
-
-
-
-footer {
-
-    color: whitesmoke;
-    text-shadow: 4px 4px 9px whitesmoke;
-    letter-spacing: 2px;
-    text-align: center;
-    padding: 80px;
-    font-style: oblique;
-    background-color: rgb(22, 22, 22);
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: -8px;
-
-}
-
-footer > img {
-
-    scale: 70%;
-
-}
-
-h1 {
-
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 100px;
-    font-weight: bolder;
-    width: 90%;
-    margin-top: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 40px;
-    text-align: center;
-    color: white;
-    background-color: rgb(22, 22, 22);
-    border-radius: 20px;
-    border: 8px white solid;
-    box-shadow: 0px 0px 34px 9px rgba(255, 255, 255, 0.6);
-
-}
-
-
-
 .filmContainer {
 
     position: relative;
@@ -174,6 +143,14 @@ h1 {
     align-items: center;
     justify-content: center;
     
+}
+
+.filmContainer > * * {
+
+    text-decoration: none;
+    color: white;
+    padding: 1.2vw;
+
 }
 
 .filmContainer:hover > img {
@@ -252,5 +229,25 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(22, 22, 22);
+
+}
+
+footer > img {
+
+    scale: 70%;
 
 }

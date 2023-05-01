@@ -107,57 +107,43 @@ main {
     box-shadow: 0px 0px 34px 9px rgba(255, 255, 255, 0.6);
 }
 
-.container h1{
+.container h1 {
+
     font-size: 70px;
     font-weight: bolder;
+
 }
 
-.container img{
+.container img {
+
     width: 600px;
     height: 600px;
+
 }
 
-.container #text-img{
+.container #text-img {
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+
 }
-.container section p{
+
+.container section p {
+
     width: 600px;
     font-size: 20px;
 }
-footer {
 
-    color: whitesmoke;
-    text-shadow: 4px 4px 9px whitesmoke;
-    letter-spacing: 2px;
-    text-align: center;
-    padding: 80px;
-    font-style: oblique;
-    background-color: rgb(22, 22, 22);
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: -8px;
+.add-to-cart-btn {
 
-}
-
-footer > img {
-
-    scale: 70%;
-
-}
-
-
-/*test przycisku bocznego*/
-
-.add-to-cart-btn{
     display: flex;
     font-size: 30px;
     background: rgb(112,120,255);
     background: linear-gradient(114deg, rgb(253, 167, 68) 0%, rgb(250, 36, 64) 100%);
     font-weight: 900;
-    width: 440px; /*440*/
+    width: 440px;
     height: 100px;
     border-radius: 10px;
     text-align: center;
@@ -166,9 +152,33 @@ footer > img {
     padding-left: 15px;
     margin-top: 15px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
 }
-#button-sec{
+
+#button-sec {
+
     display: flex;
     justify-content: center;
     margin: 40px;
+    
+}
+
+
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(22, 22, 22);
+
+}
+
+footer > img {
+
+    scale: 70%;
+
 }
