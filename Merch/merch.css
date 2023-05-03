@@ -25,14 +25,17 @@ video {
 
 header {
 
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(22, 22, 22);
+    width: 100%;
     height: 4.5vw;
     font-weight: bold;
     font-size: 0.8vw;
     padding: 1vw;
+    z-index: 2;
 
 }
 
@@ -111,7 +114,8 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    min-height: 95vh;
+    padding-top: 4vw;
+    min-height: 90vh;
 
 }
   
