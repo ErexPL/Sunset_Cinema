@@ -12,15 +12,15 @@
     <video autoplay muted loop>
         <source src="../Main/background_video.mp4" type="video/mp4">
     </video>
-    <a href="../Main/main.html"><img src="imgs/arrow.png" alt="" class="arrowButton"></a>
-    <div class="box">
+    <a href="../Main/main.html"><img src="imgs/arrow.png" class="arrowButton"></a>
+    <section>
         <img id="logo" src="../Main/imgs/logo_black.png">
         <div class="actionBtns">
             <button class="actionBtn registerBtn">Register</button>
             <button class="actionBtn loginBtn">Login</button>
             <button class="moveBtn">Register</button>
         </div>
-        <div class="form register registerForm">
+        <form class="register registerForm">
             <img src="imgs/profile.png">
             <label>Username</label>
             <input type="text" id="username" maxlength="30" placeholder="Min. 4 characters"><br>
@@ -33,17 +33,17 @@
             <img src="imgs/open_lock.png">
             <label>Confirm Password</label>
             <input type="password" id="password2" maxlength="40"><br>
-        </div>
-        <div class="form login">
+        </form>
+        <form class="login">
             <img src="imgs/profile.png">
             <label>Username / Email</label>
             <input type="text" maxlength="40"><br>
             <img src="imgs/lock.png">
             <label>Password</label>
             <input type="password" maxlength="40"><br>
-        </div>
+        </form>
         <input type="button" value="Sign Up" class="signUp" onclick="verify()">
-    </div>
+    </section>
     <script src="sign_up.js"></script>
 </body>
 
