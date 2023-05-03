@@ -57,7 +57,7 @@ video {
 
 
 
-.box {
+section {
 
     position: absolute;
     left: 50%;
@@ -94,7 +94,7 @@ video {
 
 
 
-.form {
+form {
 
     opacity: 0;
     transition: 1s;

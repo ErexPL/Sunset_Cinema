@@ -5,7 +5,7 @@ const loginBtn = document.querySelector(".loginBtn");
 const moveBtn = document.querySelector(".moveBtn");
 const register = document.querySelector(".register");
 const login = document.querySelector(".login");
-const box = document.querySelector(".box");
+const section = document.querySelector("section");
 const signUp = document.querySelector(".signUp");
 
 const email = document.querySelector("#email");
@@ -26,7 +26,7 @@ loginBtn.addEventListener("click", ()=>{
     }
     moveBtn.classList.add("rightBtn");
     login.classList.add("loginForm");
-    box.classList.add("small");
+    section.classList.add("small");
     signUp.classList.add("smallSignUp");
     signUp.value = "Sign In";
     moveBtn.innerHTML = "Login";
@@ -41,7 +41,7 @@ registerBtn.addEventListener("click", ()=>{
         inputFields[i].style.borderBottomColor = '';
     }
     moveBtn.classList.remove("rightBtn");
-    box.classList.remove("small");
+    section.classList.remove("small");
     signUp.classList.remove("smallSignUp");
     signUp.value = "Sign Up";
     moveBtn.innerHTML = "Register";

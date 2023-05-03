@@ -174,14 +174,16 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 20px;
+    font-size: 0.8vw;
     font-weight: bold;
     background-color: rgb(22, 22, 22);
+    text-shadow: 0.1vw 0.1vw 0.5vw rgb(255, 255, 255);
 
 }
 
 footer > img {
 
+    width: 5vw;
     scale: 70%;
 
 }
