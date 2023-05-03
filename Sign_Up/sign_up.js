@@ -136,7 +136,7 @@ function verify() {
 
     if (correctUsername == true && correctEmail == true && correctPassword1 == true && correctPassword2 == true) {
 
-        window.location = '../Main/main.html';
+        window.location = '../Movies/movies.html';
 
     }
 

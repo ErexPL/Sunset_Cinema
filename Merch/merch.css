@@ -112,7 +112,7 @@ h1 {
 main {
 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding-top: 4vw;
     min-height: 90vh;
@@ -163,15 +163,6 @@ main {
     transition: 0.4s ease-out;
 
 }
-  
-.title {
-
-    display: flex;
-    justify-content: center;
-    color: rgb(22, 22, 22);
-    font-weight: 300;
-   
-}
 
 .container > div > img {
 
@@ -199,32 +190,45 @@ main {
     
 }
 
-#sklep {
+article {
 
     display: flex;
-    margin-top: 100px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 100px;
 
 }
 
-#sklep > * {
+article > p {
 
-    width: 35%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
 
 }
 
+main ul {
 
-
-#sklep > p {
-
-    font-size: 1.1vw;
+    width: 30%;
+    font-size: 30px;
     font-weight: bolder;
     color: white;
     background-color: rgb(22, 22, 22);
     padding: 30px;
     border-radius: 20px;
     box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
+
+}
+
+li {
+
+    margin-left: 30px;
 
 }
 
