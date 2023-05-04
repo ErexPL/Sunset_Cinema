@@ -88,6 +88,7 @@ header li {
     box-shadow: 0vw 0vw 1vw rgb(241, 93, 24);
     transition: 0.2s;
     margin: 1vw;
+    font-size: 0.8vw;
     
 }
 
@@ -97,6 +98,7 @@ header li:hover {
     height: 2.4vw;
     transition: 0.2s;
     cursor: pointer;
+    font-size: 0.9vw;
 
 }
 
@@ -120,21 +122,104 @@ main {
     justify-content: space-between;
     align-items: center;
     min-height: calc(100vh - 4.5vw);
-    padding: 6vw 8vw 2vw 8vw;
+    padding: 6vw 12vw 2vw 12vw;
 
 }
 
 main section {
 
     width: 28vw;
-    font-size: 30px;
+    font-size: 1.8vw;
     font-weight: bolder;
     color: white;
     background-color: rgb(22, 22, 22);
     margin: 2vw;
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
+    padding: 1vw;
+    border-radius: 1vw;
+    box-shadow: 0.5vw 0.5vw 2vw black;
+
+}
+
+main form {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+main h2 {
+
+    text-align: center;
+    margin: 1.3vw 0vw 1.3vw 0vw;
+
+}
+
+main div {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+    height: 3vw;
+    margin: 1.3vw 0vw 1.3vw 0vw;
+
+}
+
+main img {
+
+    width: 2vw;
+
+}
+
+main label {
+
+    font-size: 1vw;
+
+}
+
+main input {
+
+    width: 21.5vw;
+    outline: 0;
+    border-width: 0vw 0vw 0.15vw 0vw;
+    background-color: rgb(22, 22, 22);
+    border-color:white;
+    color: white;
+    padding-bottom: 0.15vw;
+    font-size: 0.8vw;
+
+}
+
+main input:focus{
+
+    border-color:deepskyblue;
+
+}
+
+main button {
+
+    width: 12vw;
+    height: 2.5vw;
+    text-align: center;
+    border-radius: 0.5vw;
+    border: none;
+    background: linear-gradient(114deg, rgb(253, 167, 68) 0%, rgb(250, 36, 64) 100%);
+    box-shadow: 0vw 0vw 1vw rgb(241, 93, 24);
+    transition: 0.2s;
+    margin: 1.3vw 0vw 1.3vw 0vw;
+    font-weight: bold;
+    font-size: 0.8vw;
+
+}
+
+main button:hover {
+
+    width: 13vw;
+    transition: 0.2s;
+    cursor: pointer;
+    font-size: 0.9vw;
 
 }
 

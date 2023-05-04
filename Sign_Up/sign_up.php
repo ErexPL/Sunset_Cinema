@@ -151,24 +151,42 @@ if(!empty($_SESSION["id"])) {
         <section id="section1">
             <h2>Register</h2>
             <form class="" action="" method="post" autocomplete="off">
-                <label for="username">Username:</label>
-                <input type="text" name="username" id="username" required value=""><br>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required value=""><br>
-                <label for="password_r">Password:</label>
-                <input type="password" name="password_r" id="password_r" required value=""><br>
-                <label for="confirm_password">Confirm Password:</label>
-                <input type="password" name="confirm_password" id="confirm_password" required value=""><br>
+                <div>
+                    <img src="imgs/profile.png">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username" required value="">
+                </div>
+                <div>
+                    <img src="imgs/email.png">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required value="">
+                </div>
+                <div>
+                    <img src="imgs/lock.png">
+                    <label for="password_r">Password:</label>
+                    <input type="password" name="password_r" id="password_r" required value="">
+                </div>
+                <div>
+                    <img src="imgs/open_lock.png">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" name="confirm_password" id="confirm_password" required value="">
+                </div>
                 <button type="submit_r" name="submit_r">Register</button>
             </form>
         </section>
         <section>
             <h2>Login</h2>
             <form class="" action="" method="post" autocomplete="off">
-                <label for="username_email">Username/Email:</label>
-                <input type="text" name="username_email" id="username_email" required value=""><br>
-                <label for="password_l">Password:</label>
-                <input type="password" name="password_l" id="password_l" required value=""><br>
+                <div>
+                    <img src="imgs/profile.png">
+                    <label for="username_email">Username/Email:</label>
+                    <input type="text" name="username_email" id="username_email" required value="">
+                </div>
+                <div>
+                    <img src="imgs/lock.png">
+                    <label for="password_l">Password:</label>
+                    <input type="password" name="password_l" id="password_l" required value="">
+                </div>
                 <button type="submit_l" name="submit_l">Login</button>
             </form>
         </section>
