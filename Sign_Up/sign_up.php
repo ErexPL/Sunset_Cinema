@@ -115,12 +115,40 @@ if(!empty($_SESSION["id"])) {
 				<li><a href="../_Movies/movies.php">Movies</a></li>
 				<li><a href="../Merch/merch.php">Merch</a></li>
 				<li><a href="../About_Us/about_us.php">About Us</a></li>
-				<li><a href="sign_up.php">Register/Login</a></li>
+				<li><a href="
+                    <?php
+
+                        if (!empty($_SESSION["id"])) {
+
+                            echo "logout.php";
+
+                        } else {
+
+                            echo "sign_up.php";
+
+                        }
+
+                    ?>
+                ">
+                    <?php
+
+                        if (!empty($_SESSION["id"])) {
+
+                            echo "Logout";
+
+                        } else {
+
+                            echo "Register/Login";
+
+                        }
+
+                    ?>
+                </a></li>
 			</ul>
 		</nav>
 	</header>
     <main>
-        <section>
+        <section id="section1">
             <h2>Register</h2>
             <form class="" action="" method="post" autocomplete="off">
                 <label for="username">Username:</label>
@@ -144,14 +172,12 @@ if(!empty($_SESSION["id"])) {
                 <button type="submit_l" name="submit_l">Login</button>
             </form>
         </section>
-        <a href="logout.php">Logout</a>
     </main>
     <footer>
 		<p>Sunset Cinema 2022 &copy;</p>
 		<img src="../_Movies/imgs/icon.ico">
 		<p>Sunset Group Corp.</p>
 	</footer>
-    <script src="sign_up.js"></script>
 </body>
 
 </html>

@@ -7,7 +7,7 @@ body * {
 
 body {
 
-    font-family: "Trebuchet MS", sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     overflow-x: hidden;
 
@@ -116,17 +116,17 @@ header a, header a:visited {
 
 main {
 
-    padding-top: 4vw;
-    min-height: 90vh;
+    padding-top: 6vw;
+    min-height: calc(100vh - 4.5vw);
 
 }
 
 .container {
+
     display: flex;
     flex-direction: column;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 90%;
-    margin-top: 140px;
+    margin: 2vw;
     margin-left: 5%;
     margin-right: 5%;
     padding: 40px;

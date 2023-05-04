@@ -7,7 +7,7 @@ body * {
 
 body {
 
-    font-family: "Trebuchet MS", sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     overflow-x: hidden;
 
@@ -100,7 +100,7 @@ header li:hover {
 
 }
 
-header a, header a:visited {
+a, a:visited {
 
     display: flex;
     align-items: center;
@@ -117,12 +117,26 @@ header a, header a:visited {
 main {
 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-top: 4vw;
+    justify-content: space-between;
+    align-items: center;
+    min-height: calc(100vh - 4.5vw);
+    padding: 6vw 8vw 2vw 8vw;
 
 }
 
+main section {
+
+    width: 28vw;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    margin: 2vw;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
+
+}
 
 
 footer {
@@ -130,6 +144,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 4.5vw;
     color: white;
     font-size: 0.8vw;
     font-weight: bold;

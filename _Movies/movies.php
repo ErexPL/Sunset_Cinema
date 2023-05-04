@@ -51,7 +51,35 @@ if(!empty($_SESSION["id"])) {
 				<li><a href="movies.php">Movies</a></li>
 				<li><a href="../Merch/merch.php">Merch</a></li>
 				<li><a href="../About_Us/about_us.php">About Us</a></li>
-				<li><a href="../Sign_Up/sign_up.php">Register/Login</a></li>
+				<li><a href="
+                    <?php
+
+                        if (!empty($_SESSION["id"])) {
+
+                            echo "../Sign_Up/logout.php";
+
+                        } else {
+
+                            echo "../Sign_Up/sign_up.php";
+
+                        }
+
+                    ?>
+                ">
+                    <?php
+
+                        if (!empty($_SESSION["id"])) {
+
+                            echo "Logout";
+
+                        } else {
+
+                            echo "Register/Login";
+
+                        }
+
+                    ?>
+                </a></li>
 			</ul>
 		</nav>
 	</header>

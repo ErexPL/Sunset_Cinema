@@ -6,6 +6,6 @@ $_SESSION = [];
 session_unset();
 session_destroy();
 
-header("Location: ../_Movies/movies.php");
+header("Location: ../Sign_Up/sign_up.php");
 
 ?>
