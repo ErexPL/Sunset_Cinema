@@ -1,25 +1,57 @@
+<?php
+
+require '../Sign_Up/config.php';
+
+if(!empty($_SESSION["id"])) {
+
+    $id = $_SESSION["id"];
+    $result = mysqli_query($connection, "SELECT * FROM register WHERE id = '$id'");
+    $row = mysqli_fetch_assoc($result);
+
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-	<link rel="icon" href="../Movies/imgs/icon.ico">
+	<link rel="icon" href="../_Movies/imgs/icon.ico">
     <link rel="stylesheet" href="about_us.css">
 	<title>Sunset Cinema | About Us</title>
 </head>
 
 <body>
     <video autoplay muted loop>
-		<source src="../Movies/background_video.mp4" type="video/mp4">
+		<source src="../_Movies/background_video.mp4" type="video/mp4">
 	</video>
     <header>
-		<img src="../Movies/imgs/logo_black.png">
+		<section>
+            <img src="../_Movies/imgs/logo_black.png">
+            <img id="icon" src="../Sign_Up/imgs/profile.png">
+            <p>Logged in as:<br>
+                <?php
+
+                    if (!empty($_SESSION["id"])) {
+
+                        echo $row["username"];
+
+                    } else {
+
+                        echo "Guest";
+
+                    }
+
+                ?>
+            </p>
+        </section>
 		<nav>
 			<ul>
-				<li><a href="../Movies/movies.html">Movies</a></li>
-				<li><a href="../Merch/merch.html">Merch</a></li>
-				<li><a href="about_us.html">About Us</a></li>
-				<li><a href="../Sign_Up/sign_up.html">Register/Login</a></li>
+				<li><a href="../_Movies/movies.php">Movies</a></li>
+				<li><a href="../Merch/merch.php">Merch</a></li>
+				<li><a href="about_us.php">About Us</a></li>
+				<li><a href="../Sign_Up/sign_up.php">Register/Login</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -47,7 +79,7 @@
 	</main>
 	<footer>
 		<p>Sunset Cinema 2022 &copy;</p>
-		<img src="../Movies/imgs/icon.ico">
+		<img src="../_Movies/imgs/icon.ico">
 		<p>Sunset Group Corp.</p>
 	</footer>
 </body>
