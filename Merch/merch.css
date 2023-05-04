@@ -162,12 +162,9 @@ main {
   
 .title {
 
-    display: flex;
-    justify-content: center;
     color: white;
     font-weight: 300;
-    text-align: center;
-    width: inherit;
+
     
 }
 
