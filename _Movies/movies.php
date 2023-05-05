@@ -89,31 +89,37 @@ if(!empty($_SESSION["id"])) {
 			<div class="filmContainer">
 				<img src="imgs/avengers1.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/avengers2.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/avengers3.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/avengers4.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/deadpool1.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/deadpool2.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 		</div>
@@ -122,31 +128,37 @@ if(!empty($_SESSION["id"])) {
 			<div class="filmContainer">
 				<img src="imgs/drstrange1.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/drstrange2.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/grownups1.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/grownups2.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/ironman1.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/ironman2.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 		</div>
@@ -155,31 +167,37 @@ if(!empty($_SESSION["id"])) {
 			<div class="filmContainer">
 				<img src="imgs/ironman3.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/pacificrim1.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/pacificrim2.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/rocky1.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/rocky2.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/spiderman1.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 		</div>
@@ -188,31 +206,37 @@ if(!empty($_SESSION["id"])) {
 			<div class="filmContainer">
 				<img src="imgs/spiderman2.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/spiderman3.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/thor1.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/thor2.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/thor3.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/thor4.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
+				<div class="hide line"></div>
 				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
 			</div>
 		</div>
