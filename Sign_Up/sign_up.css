@@ -18,7 +18,7 @@ video {
     position: fixed;
     min-width: 100%;
     min-height: 100%;
-    z-index: -1;
+    z-index: -5;
     overflow: hidden;
 
 }
@@ -169,13 +169,14 @@ main div {
 
 main img {
 
-    width: 2vw;
+    width: 2.3vw;
 
 }
 
 main label {
 
     font-size: 1vw;
+    padding-bottom: 0.25vw;
 
 }
 
@@ -187,7 +188,7 @@ main input {
     background-color: rgb(22, 22, 22);
     border-color:white;
     color: white;
-    padding-bottom: 0.15vw;
+    padding: 0.15vw 0vw 0.15vw 0vw;
     font-size: 0.8vw;
 
 }
