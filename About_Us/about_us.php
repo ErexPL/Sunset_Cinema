@@ -84,8 +84,8 @@ if(!empty($_SESSION["id"])) {
 		</nav>
 	</header>
 	<main>
+		<h1>About Us</h1>
 		<section id="aboutUs">
-			<h1>About Us</h1>
 			<p>Organizacja Sunset Cinema została założona przez 3 wybitnych reżyserów filmowych - David Zyzz, Jacob Fuss oraz Cristóbal Pazdierro. Sunset Cinema Poland jest tylko jednym z kin zafundowanych przez naszą grupę, która obecna jest w branży kinowej od 10 lat. W tym momencie Sunset Cinema jest pierwszą siecią kinową na świecie, która oferuje jakość obrazu wideo w rozdzielczości 16K. Nasza orgnaizacja działa w 4 krajach - Hiszpanii, Francji, Niemczech oraz Polsce. Rocznie organizuje 14,5 miliona projekcji filmowych, które wyświetlane są ponad 300 milionom widzów.</p>
 			<ul>Obecnie Sunset Cienma posiada 4 kina rozmieszczone po całej Europie. Znajdują się one w następujących miastach:<br><br>
 				<li>Warszawa, Polska</li>
@@ -95,14 +95,14 @@ if(!empty($_SESSION["id"])) {
 			</ul>
 			<img src="imgs/map.png">
 		</section>
+		<h1>Creators</h1>
 		<section id="creators">
-			<h1>Creators</h1>
-			<img class="img" src="imgs/zyzz.png">
-			<p class="p">David Zyzz - stosunkowo młody i nowy reżyser tej wspaniałej grupy kinowej, jednak stał się wyjątkowo popularny dzięki swojej karieże w bodybuildingu. Pochodzi on z Australi co ma wpływ na jego dziwne zachowania takie jak dymanie pająka. Jest on żonaty z 5 metrowym wężęm. Jego przeszłość jest interesująca jest on emerytowanym żołnierzem grupy uderzeniowej Australi "Pyton", do jego osiągniec należy zabicie Bin Ladena i Obamy.</p>
+			<img src="imgs/zyzz.png">
+			<p>David Zyzz - stosunkowo młody i nowy reżyser tej wspaniałej grupy kinowej, jednak stał się wyjątkowo popularny dzięki swojej karieże w bodybuildingu. Pochodzi on z Australi co ma wpływ na jego dziwne zachowania takie jak dymanie pająka. Jest on żonaty z 5 metrowym wężęm. Jego przeszłość jest interesująca jest on emerytowanym żołnierzem grupy uderzeniowej Australi "Pyton", do jego osiągniec należy zabicie Bin Ladena i Obamy.</p>
 			<p class="reverse_p">Jacob Fuss - jest zarządca organizacji przez co ma niewiele czasu na inne rzeczy, pochodzi on Sudanu połódniowego co wiele wyjaśnia. Zyskał wielką popularność dzieki jego umijętnoścom. Jego historia jest naprawde interesująca jest on byłym piłkarzem reprezentacji francji w pewnym meczu dominował boisko ale niestety otrzymał czerwoną kartkę. Był to jego ostatni mecz był znany ze swojej szybkości i sile "jak u goryla".</p>
 			<img class="reverse_img" src="imgs/fuss.png">
-			<img class="img" src="imgs/pazdzior.png">
-			<p class="p">Cristóbal Pazdierro - założyciel całej organizacji pochodzi on ze Stanów Zjednoczonych. Cały swój sukces zawdzięcza swoim loczkom i zniewalającej muskulaturze osiągnął bardzo wiele. Był on piratem zbadał cały ocean i znalazł 2 złote monety położył na nich fundamenty organizacji. Także był kiedyś piłkarzem lecz po ostrej krytyce trenera Szymona zrezygnował ze swojej kariery i poświecił sie podbojom mórz.</p>
+			<img src="imgs/pazdzior.png">
+			<p >Cristóbal Pazdierro - założyciel całej organizacji pochodzi on ze Stanów Zjednoczonych. Cały swój sukces zawdzięcza swoim loczkom i zniewalającej muskulaturze osiągnął bardzo wiele. Był on piratem zbadał cały ocean i znalazł 2 złote monety położył na nich fundamenty organizacji. Także był kiedyś piłkarzem lecz po ostrej krytyce trenera Szymona zrezygnował ze swojej kariery i poświecił sie podbojom mórz.</p>
 		</section>
 	</main>
 	<footer>

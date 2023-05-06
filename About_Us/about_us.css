@@ -116,119 +116,88 @@ header a, header a:visited {
 
 main {
 
-    padding-top: 6vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 6vw 3vw 1vw 3vw;
     min-height: calc(100vh - 4.5vw);
 
 }
 
 h1 {
 
-    font-size: 100px;
+    font-size: 4vw;
     font-weight: bolder;
-    width: 90%;
+    width: 90vw;
     margin: 2vw;
-    padding: 40px;
+    padding: 2vw;
     text-align: center;
     color: white;
     background-color: rgb(22, 22, 22);
-    border-radius: 20px;
-    border: 8px white solid;
-    box-shadow: 0px 0px 34px 9px rgba(255, 255, 255, 0.6);
+    border-radius: 1vw;
+    border: 0.3vw white solid;
+    box-shadow: 0vw 0vw 1.5vw white;
 
 }
 
-#aboutUs {
+#aboutUs, #creators {
 
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
+    width: 80vw;
+    margin: 1vw 0vw 4vw 0vw;
+    row-gap: 5vw;
 
 }
 
-#aboutUs > img {
+main section > * {
 
-    width: 28%;
-    padding: 30px;
-    border-radius: 20px;
-    border: 1px solid rgb(22, 22, 22);
-    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
-
-}
-
-#aboutUs > p, #aboutUs > ul {
-
-    width: 28%;
-    font-size: 30px;
+    padding: 1.5vw;
+    border-radius: 1vw;
+    box-shadow: 1vw 1vw 3vw black;
+    font-size: 1.1vw;
     font-weight: bolder;
-    color: white;
     background-color: rgb(22, 22, 22);
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
+    color: white;
+
+}
+
+#aboutUs > * {
+
+    width: 23vw;
 
 }
 
 li {
 
-    margin-left: 30px;
-
-}
-
-#creators {
-
-    display: flex;
-    flex-wrap: wrap;
-    margin: 100px 0px 100px 0px;
-    justify-content: space-evenly;
-    align-items: center;
-    row-gap: 100px;
+    margin-left: 1vw;
 
 }
 
 #creators > img {
 
-    width: 15%;
-    border-radius: 10px;
-    box-shadow: 0px 5px 15px 6px rgba(0, 0, 0, 1);
+    width: 18vw;
+    padding: 0;
 
 }
 
 #creators > p {
 
-    height: min-content;
-    width: 35%;
-    font-size: 30px;
-    font-weight: bolder;
-    color: white;
-    background-color: rgb(22, 22, 22);
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 10px 8px 34px 9px rgba(0, 0, 0, 1);
-
-}
-
-.p {
-
-    margin-right: 20%;
+    width: 46vw;
 
 }
 
 .reverse_p {
 
-    margin-left: 20%;
-
-}
-
-.img {
-
-    margin-left: 10%;
+    margin-left: 3vw;
 
 }
 
 .reverse_img {
 
-    margin-right: 10%;
+    margin-right: 3vw;
 
 }
 
