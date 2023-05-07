@@ -95,12 +95,12 @@ if(!empty($_SESSION["id"])) {
             </section>
             <section>
             <div class="movie-container">
-      <label>Pick a movie:</label>
+      <label>Pick Time:</label>
       <select id="movie">
-        <option value="10">Avengers: Endgame ($10)</option>
-        <option value="12">Joker ($12)</option>
-        <option value="8">Toy Story 4 ($8)</option>
-        <option value="9">The Lion King ($9)</option>
+        <option value="10">5:00</option>
+        <option value="12">10:00</option>
+        <option value="8">15:00</option>
+        <option value="9">20:00</option>
       </select>
     </div>
 
