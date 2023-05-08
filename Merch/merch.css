@@ -87,16 +87,16 @@ header li {
     border: none;
     background: linear-gradient(114deg, rgb(253, 167, 68) 0%, rgb(250, 36, 64) 100%);
     box-shadow: 0vw 0vw 1vw rgb(241, 93, 24);
-    transition: 0.2s;
     margin: 1vw;
+    scale: 1;
+    transition: 0.3s;
     
 }
 
 header li:hover {
 
-    width: 17vw;
-    height: 2.4vw;
-    transition: 0.2s;
+    scale: 1.1;
+    transition: 0.3s;
     cursor: pointer;
 
 }
@@ -154,11 +154,11 @@ div {
     display: flex;
     flex-wrap: wrap;
     height: 17vw;
-    width: 12vw;
+    width: 11.5vw;
     font-size: 1.1vw;
     background-color: rgb(22, 22, 22);
     border-radius: 0.5vw;
-    box-shadow: 1vw 1vw 3vw black;
+    box-shadow: 0vw 0vw 1.5vw rgba(225, 225, 225, 0.5);
     border: 0.3vw white solid;
     transition: 0.4s;
 
@@ -188,7 +188,6 @@ div:hover ~ div {
 
 main img {
 
-    display: block;
     width: inherit;
     height: 13.5vw;
     border-radius: 0vw 0vw 0.2vw 0.2vw;
@@ -227,6 +226,15 @@ article > * {
     background-color: rgb(22, 22, 22);
     color: white;
     width: 30vw;
+    scale: 1;
+    transition: 0.4s;
+
+}
+
+article > *:hover {
+
+    scale: 1.05;
+    transition: 0.4s;
 
 }
 
