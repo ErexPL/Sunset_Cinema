@@ -86,59 +86,64 @@ if(!empty($_SESSION["id"])) {
 	</header>
 	<main>
 		<h1>Merch</h1>
-		<section class="container">
-			<div class="card">
+		<section>
+			<div>
 			  <h3>Pazdzior</h3>
-			  <img src="imgs/pazdzior.png" alt="koszulka pazdzior">
+			  <img src="imgs/pazdzior.png">
 			</div>
-			<div class="card">
+			<div>
 			  <h3>Black power</h3>
-			  <img src="imgs/fuss.png" alt="koszulka fuss">
+			  <img src="imgs/fuss.png">
 			</div>
-			<div class="card">
+			<div>
 			  <h3>Zyzz</h3>
-			  <img src="imgs/zyzz.png" alt="koszulka zyzz">
+			  <img src="imgs/zyzz.png">
 			</div>
-			<div class="card">
+			<div>
 			  <h3>Black #1</h3>
-			  <img src="imgs/black1.png" alt="koszulka black 1">
+			  <img src="imgs/black1.png">
 			</div>
-			<div class="card">
+			<div>
 				<h3>Black #2</h3>
-				<img src="imgs/black2.png" alt="koszulka black 2">
+				<img src="imgs/black2.png">
 			</div>
-			<div class="card">
+			<div>
 				<h3>Pulse</h3>
-				<img src="imgs/pulse.png" alt="koszulka pulse">
+				<img src="imgs/pulse.png">
 			</div>
-			<div class="card">
+			<div>
 				<h3>Sus</h3>
-				<img src="imgs/sus.png" alt="koszulka sus">
-			</div>
-			<div class="card">
-				<h3>Bald man</h3>
-				<img src="imgs/bald.png" alt="koszulka bald">
+				<img src="imgs/sus.png">
 			</div>
 		</section>
 		<article>
-			<p>
-				Grupa Sunset Cinema sprzedaje swój merch na swoim sklepie internetowym który znajduje sie w poniższym linku:<br><br><a href="https://coub.com/view/ujcaw">Link do sklepu</a><br><br>
-				Obecnie Sunset Cienma posiada 4 sklepy stacjnare rozmieszczone po całej Europie. Znajdują się one w następujących miastach:<br><br>
-			</p>
-			<ul>Obecnie Sunset Cienma posiada 4 kina rozmieszczone po całej Europie. Znajdują się one w następujących miastach:<br><br>
-				<li>Warszawa, Polska</li>
-				<li>Berlin, Niemcy</li>
-				<li>Paryż, Francja</li>
-				<li>Madryt, Hiszpania</li>
+			<p>Wszystkie koszulki wyświetlone w powyższym katalogu są dostępne przez 24/7 w naszych sklepach stacjonarnych starannie rozmieszczonych po Europie w taki sposób, aby zapewnić naszym klientom największą wygodę.</p>
+			<ul>Obecnie Sunset Cienma posiada aż 500 sklepów stacjonarnych, które stale zostają zaopatrzone w najnowszy merch. Znajdują się one w następujących krajach:<br><br>
+				<li>Polska - 200 sklepów</li>
+				<li>Niemcy - 150 sklepów</li>
+				<li>Francja - 75 sklepów</li>
+				<li>Hiszpania - 75 sklepów</li>
 			</ul>
 		</article>
-		<h1>coming soon</h1>
-		<section class="coming">
-			<img src="imgs/chad.png" alt="koszulka chad">
-			<img src="imgs/yoo.png" alt="koszulka yoo">
-			<img src="imgs/cuck.png" alt="koszulka cuck">
+		<h1>Coming soon</h1>
+		<section>
+			<div>
+			  <h3>Bald</h3>
+			  <img src="imgs/bald.png">
+			</div>
+			<div>
+			  <h3>Chad</h3>
+			  <img src="imgs/chad.png">
+			</div>
+			<div>
+			  <h3>Yoo</h3>
+			  <img src="imgs/yoo.png">
+			</div>
+			<div>
+			  <h3>Cuck</h3>
+			  <img src="imgs/cuck.png">
+			</div>
 		</section>
-
 	</main>
 	<footer>
 		<p>Sunset Cinema 2022 &copy;</p>
