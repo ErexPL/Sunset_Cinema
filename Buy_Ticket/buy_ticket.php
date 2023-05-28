@@ -163,6 +163,13 @@ if(!empty($_SESSION["id"])) {
         </select>
         <p>* - all movies in our cinemas are displayed in 3d</p>
         </form>
+      <label>Pick Time:</label>
+      <select id="movie">
+        <option value="10">5:00</option>
+        <option value="12">10:00</option>
+        <option value="8">15:00</option>
+        <option value="9">20:00</option>
+      </select>
     </div>
 
     <ul class="showcase">

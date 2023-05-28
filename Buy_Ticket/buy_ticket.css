@@ -16,8 +16,9 @@ body {
 video {
 
     position: fixed;
-    min-width: 100%;
-    min-height: 100%;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
     z-index: -5;
     overflow: hidden;
 
@@ -86,16 +87,16 @@ header li {
     border: none;
     background: linear-gradient(114deg, rgb(253, 167, 68) 0%, rgb(250, 36, 64) 100%);
     box-shadow: 0vw 0vw 1vw rgb(241, 93, 24);
-    transition: 0.2s;
     margin: 1vw;
+    scale: 1;
+    transition: 0.3s;
     
 }
 
 header li:hover {
 
-    width: 17vw;
-    height: 2.4vw;
-    transition: 0.2s;
+    scale: 1.1;
+    transition: 0.3s;
     cursor: pointer;
 
 }
