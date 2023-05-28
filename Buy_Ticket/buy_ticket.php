@@ -91,17 +91,78 @@ if(!empty($_SESSION["id"])) {
             <h1>NAZWA FILMU</h1>
             <section id="text-img">
                 <img src="ph.png" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, architecto. Voluptatem dolorem aliquid numquam, facilis, ipsum eveniet commodi illo ipsa ad neque quibusdam iusto ipsam porro assumenda voluptate quia sint placeat! Nesciunt sunt nostrum fugiat magnam? Dolorem expedita voluptates eos assumenda itaque obcaecati error omnis tenetur, esse, quasi qui natus debitis vel repudiandae fugit maxime? Quos velit inventore enim fugit modi. Neque nesciunt accusamus eveniet optio consequuntur fugiat. Eaque culpa voluptas eius eum, suscipit illum est hic rem! Consequatur, voluptates unde corrupti numquam hic sapiente nulla officia ullam explicabo quaerat eligendi adipisci incidunt quae temporibus optio error quidem veniam deleniti.</p>
-            </section>
+              <aside>
+                <div class="release-date-area">
+                <img src="imgs/calendar.png" alt="">
+                <h3>
+                  <b>RELEASE DATE</b><br>
+                  dd-mm.rrrraa
+                </h3>
+                <img src="imgs/time-left.png" alt="">
+                <h3>
+                  <b>LENGTH</b><br>
+                  xx min
+                </h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo error, beatae asperiores dolore ad consequuntur vitae minus atque nisi accusamus rem excepturi quam provident suscipit ipsam? Vel vero, error quibusdam consequatur maxime distinctio ad incidunt, est repudiandae commodi amet modi optio fuga quas ipsa omnis? Accusantium modi repellendus doloribus quod, qui iste at consectetur iusto velit minus sapiente maxime similique?</p>
+                <table>
+                  <tr>
+                    <th>TITLE</th>
+                    <td>example</td>
+  
+                  </tr>
+                  <tr>
+                    <th>GENRE</th>
+                    <td>example</td>
+  
+                  </tr>
+                  <tr>
+                    <th>DIRECTOR</th>
+                    <td>example</td>
+  
+                  </tr>
+                  <tr>
+                    <th>PRODUCTION</th>
+                    <td>example</td>
+  
+                  </tr>
+                  <tr>
+                    <th>RECOMMENDED AGE</th>
+                    <td>example</td>
+    
+                  </tr>
+                </table>
+              </aside>
+              </section>
             <section>
             <div class="movie-container">
-      <label>Pick a movie:</label>
-      <select id="movie">
-        <option value="10">Avengers: Endgame ($10)</option>
-        <option value="12">Joker ($12)</option>
-        <option value="8">Toy Story 4 ($8)</option>
-        <option value="9">The Lion King ($9)</option>
-      </select>
+            <form action="movies">
+              <h2>BUY TICKETS</h2><br>
+              <input type="date">
+        <label for="cinema">Choose cinema:</label>
+        <select id="cinema">
+          <option value="-">---</option>
+          <option value="Wwa">Warsaw</option>
+          <option value="Berlin">Berlin</option>
+          <option value="Paris">Paris</option>
+          <option value="Madrit">Madrit</option>
+        </select>
+        <label>Choose movie*:</label>
+        <select id="movie">
+          <option value="-">---</option>
+          <option value="10">Avengers: Endgame ($10)</option>
+          <option value="12">Joker ($12)</option>
+          <option value="8">Toy Story 4 ($8)</option>
+          <option value="9">The Lion King ($9)</option>
+        </select>
+        <label id="ticket_type">Ticket type:</label>
+        <select id="type">
+          <option value="-">---</option>
+          <option value="normal">normalny</option>
+          <option value="forkids">ulgowy</option>
+        </select>
+        <p>* - all movies in our cinemas are displayed in 3d</p>
+        </form>
     </div>
 
     <ul class="showcase">
@@ -2876,7 +2937,7 @@ if(!empty($_SESSION["id"])) {
 
             </section>
             <section id="button-sec">
-                <div class="add-to-cart-btn">
+                <div class="add-to-cart-btn" onclick="seatOccupied()">
                     BUY TICKET
                     <div class="center-con">
                         <div class="round">

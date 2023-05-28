@@ -67,3 +67,16 @@ container.addEventListener('click', (e) => {
 
 // intial count and total
 updateSelectedCount();
+
+function seatOccupied(){
+  const seat = film.querySelector(":scope > .seat");
+  seat.classList.add("occupied");
+}
+
+
+// krzeslo.addEventListener("mouseover", ()=>{
+
+//   seats = film.querySelector(":scope > .seat");
+//   seats.classList.add("occupied");
+  
+// });
