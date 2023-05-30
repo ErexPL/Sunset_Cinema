@@ -4,3 +4,7 @@ $('.round').click(function(e) {
     $('.arrow').toggleClass('bounceAlpha');
   });
   
+
+  function alertTicket() { 
+    alert("Hello! I am an alert box!");
+  }

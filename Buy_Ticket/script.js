@@ -74,9 +74,3 @@ function seatOccupied(){
 }
 
 
-// krzeslo.addEventListener("mouseover", ()=>{
-
-//   seats = film.querySelector(":scope > .seat");
-//   seats.classList.add("occupied");
-  
-// });

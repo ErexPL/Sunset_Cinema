@@ -21,7 +21,8 @@ if(!empty($_SESSION["id"])) {
     <link rel="stylesheet" href="buy_ticket.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="button-arrow.css">
-    <script src="buy_ticket.js"></script>
+    <script src="alert.js"></script>
+    <script src="buy_ticket.js" defer></script>
 	<title>Sunset Cinema | Buy Ticket</title>
 </head>
 
@@ -149,7 +150,6 @@ if(!empty($_SESSION["id"])) {
         </select>
         <label>Choose movie*:</label>
         <select id="movie">
-          <option value="-">---</option>
           <option value="10">Avengers: Endgame ($10)</option>
           <option value="12">Joker ($12)</option>
           <option value="8">Toy Story 4 ($8)</option>
@@ -160,16 +160,16 @@ if(!empty($_SESSION["id"])) {
           <option value="-">---</option>
           <option value="normal">normalny</option>
           <option value="forkids">ulgowy</option>
+        </select><br>
+        <label>Choose time:</label>
+        <select id="time">
+          <option value="10">5:00</option>
+          <option value="12">10:00</option>
+          <option value="8">15:00</option>
+          <option value="9">20:00</option>
         </select>
         <p>* - all movies in our cinemas are displayed in 3d</p>
         </form>
-      <label>Pick Time:</label>
-      <select id="movie">
-        <option value="10">5:00</option>
-        <option value="12">10:00</option>
-        <option value="8">15:00</option>
-        <option value="9">20:00</option>
-      </select>
     </div>
 
     <ul class="showcase">
@@ -2944,7 +2944,7 @@ if(!empty($_SESSION["id"])) {
 
             </section>
             <section id="button-sec">
-                <div class="add-to-cart-btn" onclick="seatOccupied()">
+                <div class="add-to-cart-btn" onclick="alertTicket()">
                     BUY TICKET
                     <div class="center-con">
                         <div class="round">
@@ -2957,7 +2957,6 @@ if(!empty($_SESSION["id"])) {
                 </div>
             </section>
             <section id="more-info">
-                
             </section>
         </div>
         <script src="script.js"></script>
