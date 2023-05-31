@@ -1,5 +1,5 @@
 const container = document.querySelector('.container');
-const seats = document.querySelectorAll('.row .seat:not(.occupied');
+const seats = document.querySelectorAll('.row .seat:not(.occupied)');
 const count = document.getElementById('count');
 const total = document.getElementById('total');
 const movieSelect = document.getElementById('movie');
@@ -68,9 +68,30 @@ container.addEventListener('click', (e) => {
 // intial count and total
 updateSelectedCount();
 
-function seatOccupied(){
-  const seat = film.querySelector(":scope > .seat");
-  seat.classList.add("occupied");
+
+
+function seatOccupied() {
+  seats.forEach(seat => seat.classList.add("occupied"));
 }
 
 
+
+function randomSeat() {
+  const randomIndex = Math.floor(Math.random() * seats.length);
+  seats[randomIndex].classList.add('occupied');
+}
+
+function randomSeat2() {
+  const seats = document.querySelectorAll('.row .seat:not(.occupied)');
+  const probability = 0.025; // Prawdopodobieństwo 1/4
+
+  seats.forEach(seat => {
+    if (Math.random() < probability) {
+      seat.classList.add('occupied');
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  randomSeat2();
+});
