@@ -83,7 +83,7 @@ function randomSeat() {
 
 function randomSeat2() {
   const seats = document.querySelectorAll('.row .seat:not(.occupied)');
-  const probability = 0.025; // Prawdopodobieństwo 1/4
+  const probability = 0.025;
 
   seats.forEach(seat => {
     if (Math.random() < probability) {
@@ -95,3 +95,8 @@ function randomSeat2() {
 document.addEventListener('DOMContentLoaded', function() {
   randomSeat2();
 });
+
+function submitForm() {
+  document.getElementById("subForm").submit();
+  alert("Dziękujemy za zakup biletów! Faktura została wysłana na twój adres e-mail.");
+}

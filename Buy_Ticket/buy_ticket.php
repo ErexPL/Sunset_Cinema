@@ -2909,11 +2909,11 @@ if(!empty($_SESSION["id"])) {
       You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span>
     </p>
             </section>
-            <form action="movies">
+            <form action="movies" id="subForm">
           <h2>BUY TICKETS</h2><br>
           <input type="date">
     <label for="cinema">Choose cinema:</label>
-    <select id="cinema">
+    <select id="cinema" required>
       <option value="-">---</option>
       <option value="Wwa">Warsaw</option>
       <option value="Berlin">Berlin</option>
@@ -2921,20 +2921,20 @@ if(!empty($_SESSION["id"])) {
       <option value="Madrit">Madrit</option>
     </select>
     <label>Choose movie*:</label>
-    <select id="movie">
+    <select id="movie" required>
       <option value="10">Avengers: Endgame ($10)</option>
       <option value="12">Joker ($12)</option>
       <option value="8">Toy Story 4 ($8)</option>
       <option value="9">The Lion King ($9)</option>
     </select>
     <label id="ticket_type">Ticket type:</label>
-    <select id="type">
+    <select id="type" required>
       <option value="-">---</option>
       <option value="normal">normalny</option>
       <option value="forkids">ulgowy</option>
     </select><br>
     <label>Choose time:</label>
-    <select id="time">
+    <select id="time" required>
       <option value="10">5:00</option>
       <option value="12">10:00</option>
       <option value="8">15:00</option>
@@ -2942,10 +2942,10 @@ if(!empty($_SESSION["id"])) {
     </select>
     <p>* - all movies in our cinemas are displayed in 3d</p>
     <section id="button-sec">
-        <div class="add-to-cart-btn">
+        <div class="add-to-cart-btn" onclick="submitForm()">
             BUY TICKET
             <div class="center-con">
-                <div class="round" margin="0">
+                <div class="round">
                     <div id="cta">
                         <span class="arrow primera next "></span>
                         <span class="arrow segunda next "></span>
