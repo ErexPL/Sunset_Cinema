@@ -2942,8 +2942,9 @@ if(!empty($_SESSION["id"])) {
     </select>
     <p>* - all movies in our cinemas are displayed in 3d</p>
     <section id="button-sec">
-        <div class="add-to-cart-btn" onclick="submitForm()">
-            BUY TICKET
+        <a href="../AfterTicket/After_ticket.php">
+          <div class="add-to-cart-btn">
+          BUY TICKET
             <div class="center-con">
                 <div class="round">
                     <div id="cta">
@@ -2952,7 +2953,7 @@ if(!empty($_SESSION["id"])) {
                     </div>
                 </div>
             </div>
-        </div>
+        </div></a>
     </section>
     </form>
             <section id="more-info">
