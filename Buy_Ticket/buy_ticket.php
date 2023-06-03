@@ -126,8 +126,8 @@ if(!empty($_SESSION["id"])) {
                 <h2>BUY TICKETS</h2>
                 <label>Ticket type:</label>
                 <select id="ticket" required>
-                  <option value="normal">Normalny</option>
-                  <option value="forkids">Ulgowy</option>
+                  <option value="12">Normalny</option>
+                  <option value="10">Ulgowy</option>
                 </select>
                 <label>Choose date:</label>
                 <input type="date">
