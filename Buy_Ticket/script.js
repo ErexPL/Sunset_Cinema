@@ -2,10 +2,9 @@ const container = document.querySelector('.container');
 const seats = document.querySelectorAll('.row .seat:not(.occupied)');
 const count = document.getElementById('count');
 const total = document.getElementById('total');
-const movieSelect = document.getElementById('movie');
 
 populateUI();
-let ticketPrice = +movieSelect.value;
+let ticketPrice = 8;
 
 // Save selected movie index and price
 function setMovieData(movieIndex, moviePrice) {
@@ -41,20 +40,7 @@ function populateUI() {
       }
     });
   }
-
-  const selectedMovieIndex = localStorage.getItem('selectedMovieIndex');
-
-  if (selectedMovieIndex !== null) {
-    movieSelect.selectedIndex = selectedMovieIndex;
-  }
 }
-
-// Movie select event
-movieSelect.addEventListener('change', (e) => {
-  ticketPrice = +e.target.value;
-  setMovieData(e.target.selectedIndex, e.target.value);
-  updateSelectedCount();
-});
 
 // Seat click event
 container.addEventListener('click', (e) => {
@@ -83,7 +69,7 @@ function randomSeat() {
 
 function randomSeat2() {
   const seats = document.querySelectorAll('.row .seat:not(.occupied)');
-  const probability = 0.025;
+  const probability = 0.075;
 
   seats.forEach(seat => {
     if (Math.random() < probability) {
@@ -95,8 +81,3 @@ function randomSeat2() {
 document.addEventListener('DOMContentLoaded', function() {
   randomSeat2();
 });
-
-function submitForm() {
-  document.getElementById("subForm").submit();
-  alert("Dziękujemy za zakup biletów! Faktura została wysłana na twój adres e-mail.");
-}
