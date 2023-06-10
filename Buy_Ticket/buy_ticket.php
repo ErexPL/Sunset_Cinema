@@ -20,8 +20,6 @@ if(!empty($_SESSION["id"])) {
 	<link rel="icon" href="../_Movies/imgs/icon.ico">
     <link rel="stylesheet" href="buy_ticket.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="button-arrow.css">
-    <script src="alert.js"></script>
     <script src="buy_ticket.js" defer></script>
 	<title>Sunset Cinema | Buy Ticket</title>
 </head>
@@ -523,7 +521,6 @@ if(!empty($_SESSION["id"])) {
                 <p class="text">You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span></p>
               </div>
           </div>
-        <script src="script.js"></script>
     </main>
 	<footer>
 		<p>Sunset Cinema 2022 &copy;</p>
