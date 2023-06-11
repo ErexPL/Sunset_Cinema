@@ -87,36 +87,32 @@ if(!empty($_SESSION["id"])) {
 	</header>
 	<main>
         <div class="container">
-            <h1>NAZWA FILMU</h1>
-            <img src="ph.png" alt="">
+            <h1>THE AVENGERS: AGE OF ULTRON</h1>
+            <img src="../_Movies/imgs/avengers2.png" alt="">
               <aside>
                 <div class="release-date-area">
                   <img src="imgs/calendar.png" alt="">
-                  <h3><b>RELEASE DATE</b><br>dd-mm.rrrraa</h3>
+                  <h3><b>RELEASE DATE</b><br>13.04.2015</h3>
                   <img src="imgs/time-left.png" alt="">
-                  <h3><b>LENGTH</b><br>xx min</h3>
+                  <h3><b>LENGTH</b><br>141 min</h3>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo error, beatae asperiores dolore ad consequuntur vitae minus atque nisi accusamus rem excepturi quam provident suscipit ipsam? Vel vero, error quibusdam consequatur maxime distinctio ad incidunt, est repudiandae commodi amet modi optio fuga quas ipsa omnis? Accusantium modi repellendus doloribus quod, qui iste at consectetur iusto velit minus sapiente maxime similique?</p>
+                <p>Kiedy Tony Stark próbuje wskrzesić dawno zapomniany program utrzymania światowego pokoju, sytuacja niespodziewanie się komplikuje. Na scenę wkracza mroczny Ultron ze zbrodniczym planem zniszczenia całej planety. Los milionów niewinnych istnień spocznie w rękach najpotężniejszych bohaterów Ziemi z drużyny Mścicieli. Iron Man, Kapitan Ameryka, Thor, Hulk, Czarna Wdowa i Hawkeye zostaną wystawieni na największą próbę pełną niełatwych sojuszy i niespodziewanych zwrotów akcji.</p>
                 <table>
                   <tr>
-                    <th>TITLE</th>
-                    <td>example</td>
-                  </tr>
-                  <tr>
                     <th>GENRE</th>
-                    <td>example</td>
+                    <td>Action, Sci-Fi</td>
                   </tr>
                   <tr>
                     <th>DIRECTOR</th>
-                    <td>example</td>
+                    <td>Joss Whedon</td>
                   </tr>
                   <tr>
                     <th>PRODUCTION</th>
-                    <td>example</td>
+                    <td>USA</td>
                   </tr>
                   <tr>
                     <th>RECOMMENDED AGE</th>
-                    <td>example</td>
+                    <td>12+</td>
                   </tr>
                 </table>
               </aside>

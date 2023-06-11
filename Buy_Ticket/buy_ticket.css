@@ -153,8 +153,10 @@ main {
 
 .container img {
 
-    width: 30vw;
-    height: 30vw;
+    width: 18vw;
+    height: 27vw;
+    border-radius: 1vw;
+    box-shadow: 1vw 1vw 3vw black;
 
 }
 
