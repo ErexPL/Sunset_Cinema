@@ -188,13 +188,13 @@ if(!empty($_SESSION["id"])) {
 				<img src="imgs/rocky1.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
 				<div class="hide line"></div>
-				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
+				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket_rocky2.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/rocky2.png">
 				<div class="hide trailerButton"><a target="_blank">Trailer</a></div>
 				<div class="hide line"></div>
-				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket.php">Buy Ticket</a></div>
+				<div class="hide ticketButton"><a class="buyTicket" href="../Buy_Ticket/buy_ticket_rocky1.php">Buy Ticket</a></div>
 			</div>
 			<div class="filmContainer">
 				<img src="imgs/spiderman1.png">
